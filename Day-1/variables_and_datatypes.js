@@ -29,12 +29,17 @@
 // console.log(typeof fruits);
 
 // REASSIGNING VARIABLES
-const language = 'Python';
-console.log(language);
-language = 'JavaScript';
-console.log(language);
+// let language = 'Python';
+// console.log(language);
+// language = 'JavaScript';
+// console.log(language);
 
-// Summary
-// var -> redeclare ✅, reassign ✅, hoisting ✅
-// let -> redeclare ❌, reassign ✅, hoisting ❌ (BLOCK SCOPE)
-// const -> redeclare ❌, reassign ❌, hoisting ❌ (BLOCK SCOPE)
+// REASSIGNING CONST
+const color = 'Red';
+console.log(color);
+color = 'Blue';
+console.log(color);
+
+// var -> redeclare ✅, reassign ✅
+// let -> redeclare ❌, reassign ✅
+// const -> redeclare ❌, reassign ❌
